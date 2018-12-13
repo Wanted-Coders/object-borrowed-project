@@ -22,7 +22,7 @@ class Object extends Model
     ];
 
     protected $hidden = [
-        'id', 'user_id'
+        
     ];
 
     public function users() 
