@@ -17,11 +17,11 @@ class Friend extends Model
     ];
 
     protected $guarded = [
-        'create_at', 'update_at'
+        'id', 'create_at', 'update_at'
     ];
 
     protected $hidden = [
-        'id'
+        
     ];
 
     public function address_friends()

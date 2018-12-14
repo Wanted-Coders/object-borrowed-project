@@ -30,6 +30,6 @@ class User extends Authenticatable
 
     public function objects() 
     {
-        return $this->belongsTo(Object::class);
+        return $this->hasMany(Object::class);
     }
 }
